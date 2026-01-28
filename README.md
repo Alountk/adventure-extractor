@@ -41,9 +41,16 @@ Below is the step-by-step implementation plan we are following:
 ```text
 adventure-extractor/
 ├── src/
+│   ├── __init__.py
 │   ├── main.py          # Entry point
 │   ├── scraper.py       # Main site logic
 │   └── resolvers/       # Logic for each video host (Fembed, Streamtape, etc.)
+│       ├── __init__.py
+│       ├── streamtape.py
+│       └── fembed.py
+├── tests/               # To test that regex do not break
+├── requirements.txt
+└── .gitignore
 
 ## ⚖️ Disclaimer
 This project is strictly for educational purposes. It is not intended for commercial use, monetization, or personal profit.
