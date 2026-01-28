@@ -44,3 +44,6 @@ adventure-extractor/
 │   ├── main.py          # Entry point
 │   ├── scraper.py       # Main site logic
 │   └── resolvers/       # Logic for each video host (Fembed, Streamtape, etc.)
+
+## ⚖️ Disclaimer
+This project is strictly for educational purposes. It is not intended for commercial use, monetization, or personal profit.
